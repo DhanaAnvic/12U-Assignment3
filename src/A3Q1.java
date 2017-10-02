@@ -16,12 +16,16 @@ public class A3Q1 {
         array [pos1] = array [pos2];
         array[pos2] = temp;
     }
+    
         //create a method for the selection sort
         public void selectionSort(int [] array){
             //keeping track on what position we are in
             for(int position = 0; position < array.length; position++ ){
+                //go through the rest of the numbers and find the smaller number
                 for(int i = position + 1; i < array.length; i++){
+                    //Did we find the smaller number
                     if(array[i] < array[position]){
+                        //swap the numbers
                         swap(array, i, position);
                     }
                 }
@@ -40,7 +44,7 @@ public class A3Q1 {
         numbers[i] = (int)(Math.random() * 101);
           }
         
-          //BEFORE
+     //BEFORE
      System.out.println("BEFORE:");
      for(int  i = 0 ; i < numbers.length; i++){
       System.out.println(numbers[i]);
