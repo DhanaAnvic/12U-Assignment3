@@ -16,7 +16,7 @@ public class A3Q3 {
         
         //goes through the list of array once
         for (int i= 0 ; i < array.length; i++){
-            //if number equals to 1 it will add 1 each time
+            //if number equals to 1, it will add 1 each time
             if(array[i] == 1){
                 sum++;       
             }
@@ -28,10 +28,13 @@ public class A3Q3 {
 
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Test out the boundaries
         A3Q3 test = new A3Q3();
+        
+        //create an array to store in numbers
         int array[] = {0, 0, 0, 0, 0, 1, 1, 1};
-        int n = array.length;
+       
+        //printing and testing out the method
         System.out.println("Count of ones is " + test.countOnes(array));
     }
 }
