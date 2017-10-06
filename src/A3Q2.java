@@ -39,7 +39,7 @@ public class A3Q2 {
             // if it does not work go back to selection sort
             selectionSort(array);
         
-            // create a for loop to go through the list of numbers
+          // create a for loop to go through the list of numbers
         for(int j = 0; j < array.length; j++){
             //if the missing number equals to the number it was looking for, it will ad 1 each time
             if(missingNum == array[j]){
