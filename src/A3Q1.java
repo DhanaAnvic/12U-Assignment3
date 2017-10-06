@@ -30,9 +30,8 @@ public class A3Q1 {
                     }
                 }
             }
-            
         }
-        
+  
     public static void main(String[] args) {
         
         A3Q1 test = new A3Q1();
