@@ -38,6 +38,8 @@ public class A3Q4 {
         
     }
     public static void main(String[] args) {
+        
+        //test out the boundaries
         A3Q4 test = new A3Q4();
         
         // Create an array containing 8 elements for question 6 and 7
